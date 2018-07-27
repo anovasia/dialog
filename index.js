@@ -53,7 +53,7 @@ restService.post("/echo", function(req, res) {
     console.log('speech:', speech);
  var qstring=speech;
   var con = mysql.createConnection({
-  host: "sdb4free.net",
+  host: "db4free.net",
   user: "sql12247448",
   password: "eVJ7Jfki2A",
 database: "sql12247448"
