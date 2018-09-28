@@ -55,7 +55,7 @@ restService.post("/echo", function(req, res) {
   var con = mysql.createConnection({
   host: "db4free.net",
   user: "sql12247448",
-  password: "",
+  password: "eVJ7Jfki2A",
 database: "sql12247448"
 });
   con.connect(function(err) {
@@ -69,7 +69,7 @@ database: "sql12247448"
     return res.json({
         fulfillmentText: speech,
         payload: {
-            google: {
+            skype: {
                 expectUserResponse: true,
                 richResponse: {
                     items: [
