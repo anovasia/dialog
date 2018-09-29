@@ -67,7 +67,7 @@ database: "sql12247448"
     console.log(result2);
   
     return res.json({
-        fulfillmentText: result2,
+        fulfillmentText: speech+"\n"+result2,
       
         payload: {
             skype: {
