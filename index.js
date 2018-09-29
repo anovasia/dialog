@@ -76,7 +76,8 @@ database: "sql12247448"
                         {
                             simpleResponse: {
                                 //textToSpeech: speech
-                              text:result2
+                              textToSpeech: result2
+                             // text:result2
                             }
                         },
                         {
