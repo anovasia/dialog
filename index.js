@@ -86,15 +86,15 @@ database: "sql12247448"
                                     "url": "https://otb.cachefly.net/wp-content/uploads/2013/04/red-line.png",
                                     "accessibilityText": "Image alternate text"
                                 },
-                                "buttons": [
-                                    {
-                                        "title": "Read more",
-                                        "openUrlAction": {
-                                            "url": "https://example.google.com/mathandprimes"
-                                        }
-                                    }
-                                ],
-                                "imageDisplayOptions": "CROPPED"
+                               // "buttons": [
+                                //    {
+                                //        "title": "Read more",
+                                //        "openUrlAction": {
+                                //            "url": "https://example.google.com/mathandprimes"
+                                //        }
+                                //    }
+                              //  ],
+                              //  "imageDisplayOptions": "CROPPED"
                             }
                         }     
                     ]
