@@ -74,11 +74,11 @@ database: "sql12247448"
                 richResponse: {
                     items: [
                         {
-                            simpleResponse: {
-                                textToSpeech: speech
+                            //simpleResponse: {
+                             //   textToSpeech: speech
                               
                             
-                            }
+                          //  }
                         },
                         {
                             "basicCard": {
