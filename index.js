@@ -70,7 +70,7 @@ database: "sql12247448"
         fulfillmentText: speech+"\n"+result2,
       
         payload: {
-            skype: {
+            google: {
                 expectUserResponse: true,
                 richResponse: {
                     items: [
