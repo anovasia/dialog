@@ -82,7 +82,7 @@ database: "sql12247448"
                           //  }
                         },
                         {
-                            "heroCard": {
+                            "basicCard": {
                                 "title": outside + speech,
                                 "formattedText": " Your Query Input = "+ speech + "\n" +result2,
                               //  "image": {
