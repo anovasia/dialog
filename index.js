@@ -69,7 +69,7 @@ database: "sql12247448"
     return res.json({
         fulfillmentText: speech,
         payload: {
-            "google": {
+            google: {
                 expectUserResponse: true,
                 richResponse: {
                     items: [
