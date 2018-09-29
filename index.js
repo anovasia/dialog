@@ -84,10 +84,10 @@ database: "sql12247448"
                             "basicCard": {
                                 "title": outside + speech,
                                 "formattedText": " Your Query Input = "+ speech + "\n" +result2,
-                                "image": {
-                                    "url": "https://otb.cachefly.net/wp-content/uploads/2013/04/red-line.png",
-                                    "accessibilityText": "Image alternate text"
-                                },
+                              //  "image": {
+                              //      "url": "https://otb.cachefly.net/wp-content/uploads/2013/04/red-line.png",
+                              //      "accessibilityText": "Image alternate text"
+                             //   },
                                // "buttons": [
                                 //    {
                                 //        "title": "Read more",
