@@ -67,8 +67,8 @@ database: "sql12247448"
     console.log(result2);
   
     return res.json({
-        //fulfillmentText: result2,
-      Text: result2,
+        fulfillmentText: result2,
+      
         payload: {
             skype: {
                 expectUserResponse: true,
