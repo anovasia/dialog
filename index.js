@@ -48,7 +48,7 @@ restService.post("/echo", function(req, res) {
         req.body.queryResult.parameters &&
         req.body.queryResult.parameters.echoText
             ? req.body.queryResult.parameters.echoText
-            : "0";
+            : " ";
 
     console.log('speech:', speech);
  var qstring=speech;
@@ -69,14 +69,14 @@ database: "sql12247448"
     return res.json({
         //fulfillmentText: speech,
               payload: {
-            skype: {
+            google: {
                 expectUserResponse: true,
                 richResponse: {
                     items: [
                         {
                            simpleResponse: {
                              textToSpeech: speech,
-                             displaytext: speech,
+                             //displaytext: speech,
                               
                             
                          }
