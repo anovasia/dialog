@@ -48,7 +48,7 @@ restService.post("/echo", function(req, res) {
         req.body.queryResult.parameters &&
         req.body.queryResult.parameters.echoText
             ? req.body.queryResult.parameters.echoText
-            : "Enter Query ";
+            : "Enter Query 1";
 
     console.log('speech:', speech);
  var qstring=speech;
